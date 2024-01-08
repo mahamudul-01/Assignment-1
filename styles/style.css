@@ -334,8 +334,8 @@ span {
   border: 2px solid pink;
   border-radius: 20px;
 }
-/* suscribe section  */
-.suscribe {
+/* subscribe section  */
+.subscribe {
   border-radius: 10px;
   background-image: linear-gradient(
     45deg,
@@ -350,7 +350,7 @@ span {
   margin: auto;
   padding-top: 80px;
 }
-.suscribe-text h1 {
+.subscribe-text h1 {
   color: #070211;
   text-align: center;
   font-family: Merriweather;
@@ -361,7 +361,7 @@ span {
   text-transform: capitalize;
   padding-top: 40px;
 }
-.suscribe-text-para {
+.subscribe-text-para {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
   font-family: Inter;
@@ -378,7 +378,7 @@ span {
   text-align: center;
 }
 
-.suscribe-btn {
+.subscribe-btn {
   display: flex;
   margin: 0 auto;
   justify-content: center;
@@ -410,4 +410,63 @@ span {
 }
 .filed-1 input[type="email"]:hover {
   border: 1px solid rgb(255, 73, 73);
+}
+/* foter section style  */
+footer{
+  background-color:  #070211;
+  height: 700px;
+  
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.footer h5{
+  color: white;
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+margin-bottom: 10px;
+}
+.footer-text-icon-flex{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-text-icon-flex img{
+  width: 100%;
+}
+.footer-text,.footer-text-icon{
+  padding-top: 120px;
+}
+.footer-text{
+  margin-bottom: 90px;
+}
+.footer-icons{
+  display: flex;
+  gap: 15px;
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.footer-icons img:hover{
+  background-color: rgb(25, 24, 24);
+  border: 0;
+  border-radius: 50%;
+  padding: 10%;
+}
+.end{
+  display: flex;
+  justify-content: space-between;
+}
+.end p{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
