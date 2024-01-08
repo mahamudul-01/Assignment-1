@@ -36,11 +36,17 @@ span {
   border: 0;
   padding: 25px 40px;
 }
-/* header section styles */
+
 .banner {
-  background-image: url("../images/Banner\ Image.png");
+  background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.662),
+      rgba(0, 0, 0, 0.388)
+    ),
+    url("../images/Banner\ Image.png");
   margin-top: 50px;
   background-repeat: no-repeat;
+  border-radius: 15px;
 }
 .banner .banner-msg {
   color: #fff;
@@ -67,7 +73,6 @@ span {
 /* main section styles */
 .off {
   margin-top: 120px;
-  /* margin: 0 auto; */
 }
 .off h1 {
   color: #f00;
@@ -96,7 +101,13 @@ span {
 }
 /* party point section styles */
 .party-point {
-  background-image: url("../images/Vectorrr.png");
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.763),
+      rgba(0, 0, 0, 0.333)
+    ),
+    url("../images/Vectorrr.png");
+  border-radius: 25px;
   margin-top: 120px;
   height: 600px;
 }
@@ -155,7 +166,6 @@ span {
   padding-top: 100px;
 }
 .time .time-btn {
-  /* margin: 0 auto; */
   padding-top: 50px;
   text-align: center;
 }
@@ -412,61 +422,56 @@ span {
   border: 1px solid rgb(255, 73, 73);
 }
 /* foter section style  */
-footer{
-  background-color:  #070211;
+footer {
+  background-color: #070211;
   height: 700px;
-  
 }
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
 }
-.footer h5{
+.footer h5 {
   color: white;
-  color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
-margin-bottom: 10px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+  margin-bottom: 10px;
 }
-.footer-text-icon-flex{
+.footer-text-icon-flex {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.footer-text-icon-flex img{
+.footer-text-icon-flex img {
   width: 100%;
 }
-.footer-text,.footer-text-icon{
+.footer-text,
+.footer-text-icon {
   padding-top: 120px;
 }
-.footer-text{
+.footer-text {
   margin-bottom: 90px;
 }
-.footer-icons{
+.footer-icons {
   display: flex;
   gap: 15px;
   width: 400px;
   margin: 0 auto;
   margin-bottom: 100px;
 }
-.footer-icons img:hover{
-  background-color: rgb(25, 24, 24);
-  border: 0;
-  border-radius: 50%;
-  padding: 10%;
-}
-.end{
+
+.end {
   display: flex;
   justify-content: space-between;
 }
-.end p{
-  color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+.end p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
