@@ -307,14 +307,20 @@ span {
   margin-bottom: 48px;
   width: 700px;
 }
-.img-part-1{
+.img-part-1 {
   display: flex;
   justify-content: space-between;
   gap: 24px;
   margin-bottom: 24px;
-  
 }
-.img-part-2{
+.img-part-1 img {
+  width: 100%;
+}
+.img-part-2 img {
+  width: 100%;
+}
+
+.img-part-2 {
   display: flex;
   justify-content: space-between;
   gap: 24px;
@@ -323,14 +329,85 @@ span {
 .img-part-1 img:hover {
   border: 2px solid pink;
   border-radius: 20px;
-  
 }
 .img-part-2 img:hover {
   border: 2px solid pink;
   border-radius: 20px;
 }
+/* suscribe section  */
+.suscribe {
+  border-radius: 10px;
+  background-image: linear-gradient(
+    45deg,
+    rgba(244, 233, 233, 0.406),
+    rgba(207, 201, 202, 0.639)
+  );
+  height: 650px;
+  margin-bottom: 200px;
+}
+.icon img {
+  display: block;
+  margin: auto;
+  padding-top: 80px;
+}
+.suscribe-text h1 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 40px;
+}
+.suscribe-text-para {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  padding-top: 40px;
+  width: 890px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.subscribe-btn {
+  text-align: center;
+}
 
-.icon img{
-  width: 50px;
+.suscribe-btn {
+  display: flex;
+  margin: 0 auto;
   justify-content: center;
+}
+.filed-1 {
+  display: block;
+}
+.filed-2 {
+  display: block;
+}
+.filed-1 input[type="email"] {
+  padding: 20px 30px;
+  width: 400px;
+  border-radius: 40px 0px 0px 40px;
+  border: 0;
+  background-color: rgba(173, 254, 254, 0.395);
+}
+.filed-2 input[type="submit"] {
+  padding: 20px 30px;
+  width: 150px;
+  border-radius: 0px 40px 40px 0px;
+  border: 0;
+  background-color: rgba(255, 0, 0, 0.763);
+  color: white;
+  font-weight: 600;
+}
+.filed-2 input[type="submit"]:hover {
+  text-decoration: underline;
+}
+.filed-1 input[type="email"]:hover {
+  border: 1px solid rgb(255, 73, 73);
 }
