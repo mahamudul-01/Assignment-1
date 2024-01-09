@@ -112,7 +112,7 @@ span {
 .party-point {
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.763),
+      rgba(0, 0, 0, 0.918),
       rgba(0, 0, 0, 0.333)
     ),
     url("../images/Vectorrr.png");
@@ -299,7 +299,7 @@ span {
   width: 100%;
   position: relative;
   left: 50px;
-  top: 120px;
+  top: 170px;
 }
 .img-flex .img-2 img {
   position: relative;
@@ -310,7 +310,7 @@ span {
   margin-bottom: 120px;
 }
 .discount-bottom-banner img {
-  margin-top: -55px;
+  margin-top: -4px;
   max-width: 100%;
 }
 /* picture galary section style  */
