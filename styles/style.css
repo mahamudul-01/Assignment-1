@@ -5,15 +5,14 @@
   margin: 0;
   padding: 0;
 }
-hr{
+hr {
   width: 1320;
   margin-top: 50px;
   margin-bottom: 50px;
   border: 1px solid rgba(255, 255, 255, 0.208);
 }
-hr:hover{
+hr:hover {
   background: rgba(255, 255, 255, 0.667);
-  
 }
 .container {
   width: 82%;
@@ -126,14 +125,12 @@ span {
   max-width: 1320px;
   gap: 10px;
 }
-.party-point img{
+.party-point img {
   width: 80%;
-  
 }
-.party-text{
+.party-text {
   position: relative;
   bottom: 70px;
-
 }
 .party-point h1 {
   width: 650px;
@@ -476,9 +473,7 @@ footer {
 .footer-text-icon {
   padding-top: 120px;
 }
-.footer-text {
-  /* margin-bottom: 90px; */
-}
+
 .footer-icons {
   display: flex;
   gap: 15px;
