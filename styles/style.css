@@ -5,6 +5,16 @@
   margin: 0;
   padding: 0;
 }
+hr{
+  width: 1320;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.208);
+}
+hr:hover{
+  background: rgba(255, 255, 255, 0.667);
+  
+}
 .container {
   width: 82%;
   max-width: 1320px;
@@ -110,10 +120,24 @@ span {
   border-radius: 25px;
   margin-top: 120px;
   height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1320px;
+  gap: 10px;
+}
+.party-point img{
+  width: 80%;
+  
+}
+.party-text{
+  position: relative;
+  bottom: 70px;
+
 }
 .party-point h1 {
   width: 650px;
-  padding-top: 126px;
+  padding-top: 100px;
   padding-left: 126px;
   color: #fff;
   font-family: Merriweather;
@@ -453,14 +477,14 @@ footer {
   padding-top: 120px;
 }
 .footer-text {
-  margin-bottom: 90px;
+  /* margin-bottom: 90px; */
 }
 .footer-icons {
   display: flex;
   gap: 15px;
   width: 400px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  /* margin-bottom: 1px; */
 }
 
 .end {
